@@ -1,38 +1,41 @@
-const logotext = "JOHN";
+import uzairImage from './assets/images/uzair.GIF';
+
+
+const logotext = "SPATIAL UZAIR";
 const meta = {
-    title: "John Doe",
-    description: "I’m John Doe data scientist _ Full stack devloper,currently working in Berlin",
+    title: "Uzair Khan",
+    description: "👋 I’m Uzair, a product manager from London 🇬🇧",
 };
 
 const introdata = {
-    title: "I’m John Doe",
+    title: "I’m Uzair Khan",
     animated: {
-        first: "I love coding",
-        second: "I code cool websites",
-        third: "I develop mobile apps",
+        first: "Technical Product Manager",
+        second: "Creative Technologist",
+        third: "Disruptor & Innovator",
     },
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at nisl euismod urna bibendum",
-    your_img_url: "https://images.unsplash.com/photo-1514790193030-c89d266d5a9d",
+    description: "An experienced product manager with 6+ years experience building digital solutions and shipping best-in-class products.",
+    your_img_url: uzairImage,
 };
 
 const dataabout = {
-    title: "abit about my self",
-    aboutme: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent quis dolor id ligula semper elementum feugiat pretium nulla. Nunc non commodo dolor. Nunc mollis dignissim facilisis. Morbi ut magna ultricies.",
+    title: "A bit about my self",
+    aboutme: "Track record of delivering successful transformation, enablement, innovation, and growth projects (start-up, b2b, b2c, enterprise). Specialising in delivering commercial and technical outcomes to support telco, ecommerce, finance, advertising, gaming industries.",
 };
 const worktimeline = [{
-        jobtitle: "Designer of week",
-        where: "YAdfi",
-        date: "2020",
+        jobtitle: "Product Manager - Innovation & AI",
+        where: "PwC",
+        date: "2023 - Present",
     },
     {
-        jobtitle: "Designer of week",
-        where: "Jamalya",
-        date: "2019",
+        jobtitle: "Technical Product Manager - SaaS Growth",
+        where: "Blippar",
+        date: "2021 - 2022",
     },
     {
-        jobtitle: "Designer of week",
-        where: "ALquds",
-        date: "2019",
+        jobtitle: "Product Manager - BT Sport & Metaverse",
+        where: "BT & EE",
+        date: "2018 - 2021",
     },
 ];
 
@@ -59,15 +62,23 @@ const skills = [{
 ];
 
 const services = [{
-        title: "UI & UX Design",
+        title: "Product Manager",
         description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at nisl euismod urna bibendum sollicitudin.",
     },
     {
-        title: "Mobile Apps",
+        title: "Solution Architecture",
         description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at nisl euismod urna bibendum sollicitudin.",
     },
     {
-        title: "Wordpress Design",
+        title: "UI & UX",
+        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at nisl euismod urna bibendum sollicitudin.",
+    },
+    {
+        title: "Web Development",
+        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at nisl euismod urna bibendum sollicitudin.",
+    },
+    {
+        title: "Marketing & Media",
         description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at nisl euismod urna bibendum sollicitudin.",
     },
 ];
@@ -136,7 +147,7 @@ const dataportfolio = [{
 ];
 
 const contactConfig = {
-    YOUR_EMAIL: "name@domain.com",
+    YOUR_EMAIL: "spatialuzair@gmail.com",
     YOUR_FONE: "(555)123-4567",
     description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi vehicula eu nunc et sollicitudin. Cras pulvinar, nisi at imperdiet pharetra. ",
     // creat an emailjs.com account 
